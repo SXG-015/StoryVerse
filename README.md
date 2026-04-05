@@ -1,4 +1,4 @@
-# StoryVerse Phase 1 — Walkthrough
+# StoryVerse — Walkthrough
 
 ## What Was Built
 
