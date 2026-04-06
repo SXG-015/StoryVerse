@@ -173,7 +173,7 @@ const StoryDetail = () => {
                                             <span>{new Date(chapter.updated_at).toLocaleDateString()}</span>
                                         </div>
                                     </div>
-                                    {isOwner && (
+                                    {isOwner && index === chapters.length - 1 && (
                                         <Link to={`/story/${id}/chapter/${chapter.id}/edit`} className="btn btn-secondary btn-sm">
                                             Edit
                                         </Link>
